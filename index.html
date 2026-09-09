@@ -1,104 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Suhel Khan — Power BI Developer</title>
-<meta name="description" content="Suhel Khan — Power BI Developer portfolio">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Suhel Khan — Power BI Developer, BI Developer and Power BI Data Analyst." />
+<title>Suhel Khan | Power BI Developer</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <a class="logo" href="#home">SUHEL<span>.</span></a>
-  <nav id="nav"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
-  <button class="menu" id="menu">Menu</button>
-</header>
-
+<div class="bg-grid"></div><div class="stars"></div>
+<aside class="sidebar">
+  <a class="brand" href="#home"><strong>SUHEL KHAN</strong><span>Power BI Developer</span></a>
+  <nav>
+    <a class="active" href="#home">Home</a><a href="#impact">Impact</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#dashboards">Dashboards</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="side-bottom"><a href="https://linkedin.com/in/suhelkhan300" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/suhelkhanpbi-lgtm" target="_blank" rel="noreferrer">GitHub</a></div>
+</aside>
+<div class="mobile-panel" aria-hidden="true">
+  <div class="mobile-panel-head"><strong>SUHEL KHAN</strong><button class="mobile-close" aria-label="Close menu">×</button></div>
+  <nav>
+    <a href="#home">Home</a><a href="#impact">Impact</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#dashboards">Dashboards</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="mobile-panel-links"><a href="https://linkedin.com/in/suhelkhan300" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/suhelkhanpbi-lgtm" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+</div>
+<div class="mobile-nav">
+  <a class="active" href="#home"><span>⌂</span>Home</a>
+  <a href="#projects"><span>↗</span>Work</a>
+  <button class="mobile-more" type="button"><span>☰</span>More</button>
+</div>
 <main>
-<section class="hero" id="home">
-  <div class="hero-copy">
+<section id="home" class="hero section">
+  <div class="hero-content">
+    <div class="availability"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
     <p class="eyebrow">POWER BI DEVELOPER · BI · ANALYTICS</p>
-    <h1>Data, made<br><em>meaningful.</em></h1>
-    <p class="intro">I build Power BI reports, semantic models and enterprise analytics solutions that turn complex information into clear business decisions.</p>
-    <div class="hero-actions"><a class="btn" href="#work">Explore my work</a><a class="under" href="mailto:suhelkhanpbi@gmail.com">Let's connect ↗</a></div>
+    <h1>Hi, I'm <span>Suhel Khan.</span><br><em>I turn data into<br>meaningful decisions.</em></h1>
+    <p class="hero-copy">Microsoft Certified Power BI Data Analyst with 6+ years of experience building reporting solutions, semantic models, data pipelines and enterprise BI support across Power BI, SQL, SSAS and Azure.</p>
+    <div class="actions"><a class="btn primary" href="#projects">View Projects <span>↗</span></a><a class="btn" href="https://linkedin.com/in/suhelkhan300" target="_blank" rel="noreferrer">LinkedIn</a><a class="btn" href="Suhel_Khan_Power_BI_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume ↗</a></div>
   </div>
-  <div class="hero-side"><div class="hero-line"></div><span>06+</span><p>Years of<br>BI experience</p></div>
-</section>
-
-<section class="about" id="about">
-  <div class="label"><span>01</span><p>PROFILE</p></div>
-  <div class="about-content"><h2>Power BI developer with an eye for <em>clarity.</em></h2><div class="about-copy"><p>I work across the BI lifecycle — from understanding requirements and preparing data to modeling, dashboard development, validation and production support.</p><p>My core toolkit includes Power BI, DAX, Power Query, SQL, SSAS, SSIS and enterprise data platforms.</p></div></div>
-</section>
-
-<section class="work" id="work">
-  <div class="label"><span>02</span><p>SELECTED WORK</p></div>
-  <div class="work-content">
-    <div class="work-row" data-key="shipment"><span>01</span><div><small>POWER BI</small><h3>Enterprise Shipment Analytics</h3></div><p>Shipment and business reporting using enterprise sources, semantic models and interactive Power BI reporting.</p><button>View ↗</button></div>
-    <div class="work-row" data-key="operations"><span>02</span><div><small>POWER BI</small><h3>Manufacturing Operations</h3></div><p>Operational reporting connecting MES-related data with dashboards, analysis and validation.</p><button>View ↗</button></div>
-    <div class="work-row" data-key="etl"><span>03</span><div><small>DATA / ETL</small><h3>Enterprise Data Integration</h3></div><p>SQL, Oracle, DB2 and SSIS workflows supporting reporting pipelines and data quality.</p><button>View ↗</button></div>
-    <div class="work-row" data-key="ssas"><span>04</span><div><small>SSAS / TABULAR</small><h3>Semantic Models</h3></div><p>Tabular models supporting governed Power BI reporting, refresh and enterprise analytics.</p><button>View ↗</button></div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orbit o1"></div><div class="orbit o2"></div>
+    <div class="data-card"><div class="mini-label">BI PIPELINE</div><div class="pipeline"><b>SQL</b><span>→</span><b>ETL</b><span>→</span><b>MODEL</b><span>→</span><b>PBI</b></div><div class="mini-chart"><i style="height:32%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:76%"></i><i style="height:62%"></i><i style="height:94%"></i></div><div class="trend">↗ reporting intelligence</div></div>
   </div>
 </section>
-
-<section class="experience" id="experience">
-  <div class="label"><span>03</span><p>EXPERIENCE</p></div>
-  <div class="timeline-wrap">
-    <div class="timeline-title"><h2>A career built<br>around <em>data.</em></h2><p>Selected milestones across enterprise BI, analytics and reporting.</p></div>
-    <div class="timeline">
-      <div class="rail"></div>
-
-      <article class="milestone top m1">
-        <div class="milestone-copy"><div class="year">CURRENT</div><h3>IBM / Kemet</h3><p>Power BI & BI development<br>Enterprise reporting<br>Data validation & support</p></div>
-        <div class="icon active">01</div>
-      </article>
-
-      <article class="milestone bottom m2">
-        <div class="icon">02</div>
-        <div class="milestone-copy"><div class="year">PREVIOUS</div><h3>Neudesic / Adani</h3><p>Business intelligence<br>Power BI solutions<br>Data preparation</p></div>
-      </article>
-
-      <article class="milestone top m3">
-        <div class="milestone-copy"><div class="year">PREVIOUS</div><h3>SA Global / Kraft Heinz</h3><p>BI & reporting<br>Business analysis<br>Enterprise requirements</p></div>
-        <div class="icon">03</div>
-      </article>
-
-      <article class="milestone bottom m4">
-        <div class="icon">04</div>
-        <div class="milestone-copy"><div class="year">EARLIER</div><h3>Wipro / Philips</h3><p>Global delivery<br>Enterprise technology<br>Analytics experience</p></div>
-      </article>
-    </div>
-  </div>
+<section id="impact" class="section content-section">
+  <div class="section-head"><span>01 / IMPACT</span><h2>End-to-end BI,<br><em>from data to decisions.</em></h2></div>
+  <div class="stats"><div><strong>06+</strong><span>Years in BI & Analytics</span></div><div><strong>05</strong><span>Enterprise Projects</span></div><div><strong>PL-300</strong><span>Microsoft Certified</span></div><div><strong>360°</strong><span>BI Lifecycle Experience</span></div></div>
+  <div class="impact-copy"><p>I work across the full Power BI development lifecycle — requirements, data extraction, transformation, modeling, DAX, dashboard development, publishing, refreshes, security, validation and production support.</p><p>My experience spans Power BI, SQL Server, Oracle SQL, PostgreSQL, SSIS, SSAS, Azure SQL, Azure Synapse, Azure Data Factory and Azure Analysis Services.</p></div>
 </section>
-
-<section class="skills" id="skills">
-  <div class="label"><span>04</span><p>CAPABILITIES</p></div>
-  <div class="skill-content">
-    <h2>The tools I use to<br><em>solve problems.</em></h2>
-    <div class="skill-grid">
-      <div><span>01</span><h3>Power BI</h3><p>Dashboard development<br>DAX<br>Power Query<br>Visualization</p></div>
-      <div><span>02</span><h3>Data</h3><p>SQL<br>Data modeling<br>Oracle<br>SQL Server<br>DB2</p></div>
-      <div><span>03</span><h3>Microsoft BI</h3><p>SSAS / Tabular<br>SSIS<br>Power BI Service<br>Gateway</p></div>
-      <div><span>04</span><h3>Enterprise</h3><p>Requirements<br>Validation<br>Production support<br>Report optimization</p></div>
-    </div>
-  </div>
+<section id="skills" class="section content-section">
+ <div class="section-head"><span>02 / SKILLS</span><h2>The toolkit behind<br><em>the reporting layer.</em></h2></div>
+ <div class="skill-grid"><article><small>01</small><h3>BI & Visualization</h3><p>Power BI · Power BI Service · DAX · Power Query · Data Modeling · RLS</p></article><article><small>02</small><h3>Data & SQL</h3><p>SQL Server · Oracle SQL · PostgreSQL · Azure SQL · Azure Synapse</p></article><article><small>03</small><h3>Microsoft BI</h3><p>SSAS · SSIS · Azure Data Factory · Azure Analysis Services · Dataflows</p></article><article><small>04</small><h3>Engineering & Support</h3><p>ETL · Validation · Reconciliation · Performance Optimization · Production Support</p></article></div>
 </section>
-
-<section class="credential">
-  <div><p class="eyebrow">CERTIFICATION</p><h2>Microsoft Certified:<br><em>Power BI Data Analyst</em></h2></div>
-  <div class="badge">PL-300</div>
+<section id="projects" class="section content-section">
+ <div class="section-head"><span>03 / SELECTED WORK</span><h2>Problems solved with<br><em>data, not decoration.</em></h2></div>
+ <div class="project-list">
+  <article class="project" tabindex="0" aria-expanded="false"><div class="num">01</div><div class="project-body"><div class="project-meta">IBM · KEMET CORPORATION · 2026–PRESENT</div><h3>Enterprise BI & Production Analytics</h3><p class="project-summary">Power BI reporting, SQL/Oracle investigations, SSIS monitoring, SSAS support, data validation, reconciliation and production BI troubleshooting.</p><div class="tags"><span>POWER BI</span><span>MS SQL</span><span>ORACLE</span><span>SSIS</span><span>SSAS</span></div><div class="project-details"><div class="project-details-inner"><div class="project-details-grid"><div><div class="detail-label">ROLE</div><p>Power BI Developer & BI Support Engineer</p></div><div><div class="detail-label">RESPONSIBILITIES</div><ul class="responsibilities"><li>Develop and maintain Power BI reports and dashboards.</li><li>Investigate SQL/Oracle data issues and perform validation and reconciliation.</li><li>Monitor and troubleshoot SSIS jobs and ETL failures.</li><li>Support SSAS environments and production BI operations.</li></ul></div></div></div></div></div><span class="arrow">↗</span></article>
+  <article class="project" tabindex="0" aria-expanded="false"><div class="num">02</div><div class="project-body"><div class="project-meta">NEUDESIC · ADANI NATURAL RESOURCE · 2024–2025</div><h3>Geospatial & Operations Analytics</h3><p class="project-summary">Interactive train tracking and land-area mapping using ArcGIS for Power BI and Icon Map, supported by Dataflows and Power BI Service.</p><div class="tags"><span>POWER BI</span><span>DATABRICKS</span><span>ARCGIS</span><span>ICON MAP</span></div><div class="project-details"><div class="project-details-inner"><div class="project-details-grid"><div><div class="detail-label">ROLE</div><p>Power BI Developer</p></div><div><div class="detail-label">RESPONSIBILITIES</div><ul class="responsibilities"><li>Develop geospatial dashboards for live train tracking and land-area analysis.</li><li>Use ArcGIS for Power BI and Icon Map for map-based reporting.</li><li>Build reporting models and Dataflows from operational sources.</li><li>Publish and support solutions in Power BI Service.</li></ul></div></div></div></div></div><span class="arrow">↗</span></article>
+  <article class="project" tabindex="0" aria-expanded="false"><div class="num">03</div><div class="project-body"><div class="project-meta">KRAFT HEINZ · 2025–2026</div><h3>Tableau → Power BI Migration</h3><p class="project-summary">Recreated Tableau dashboards in Power BI, translated calculations and business logic into DAX, and validated the migration through UAT and regression testing.</p><div class="tags"><span>POWER BI</span><span>TABLEAU</span><span>DAX</span><span>UAT</span></div><div class="project-details"><div class="project-details-inner"><div class="project-details-grid"><div><div class="detail-label">ROLE</div><p>Power BI Developer</p></div><div><div class="detail-label">RESPONSIBILITIES</div><ul class="responsibilities"><li>Analyze existing Tableau dashboards and recreate them in Power BI.</li><li>Translate Tableau calculations and business logic into DAX.</li><li>Rebuild filters, slicers and drill-through experiences.</li><li>Perform validation, UAT and regression testing.</li></ul></div></div></div></div></div><span class="arrow">↗</span></article>
+  <article class="project" tabindex="0" aria-expanded="false"><div class="num">04</div><div class="project-body"><div class="project-meta">WIPRO · PHILIPS NETHERLANDS · 2022–2024</div><h3>Azure Enterprise BI</h3><p class="project-summary">Integrated Azure SQL DW, Azure Analysis Services, Excel and CSV sources with ADF/ADLS, Synapse, Power Query and Power BI Service.</p><div class="tags"><span>AZURE</span><span>ADF</span><span>SYNAPSE</span><span>POWER BI</span></div><div class="project-details"><div class="project-details-inner"><div class="project-details-grid"><div><div class="detail-label">ROLE</div><p>Power BI Developer</p></div><div><div class="detail-label">RESPONSIBILITIES</div><ul class="responsibilities"><li>Build Power BI solutions using Azure SQL DW and Azure Analysis Services.</li><li>Work with Excel, CSV, ADF, ADLS and Synapse data sources.</li><li>Develop Power Query transformations, data models and DAX measures.</li><li>Support Power BI Service, scheduled refresh and gateway operations.</li></ul></div></div></div></div></div><span class="arrow">↗</span></article>
+ </div>
 </section>
-
-<section class="contact" id="contact">
-  <p class="eyebrow">LET'S CONNECT</p><h2>Let's make data<br><em>work better.</em></h2>
-  <div class="contact-bottom"><a class="btn" href="mailto:suhelkhanpbi@gmail.com">suhelkhanpbi@gmail.com ↗</a><div><a href="https://linkedin.com/in/suhelkhan300" target="_blank">LinkedIn</a><a href="https://github.com/suhelkhanpbi-lgtm" target="_blank">GitHub</a></div></div>
+<section id="dashboards" class="section content-section dashboard-section">
+ <div class="section-head"><span>04 / DASHBOARD SHOWCASE</span><h2>A few dashboards,<br><em>built to tell the story.</em></h2></div>
+ <div class="dashboard-intro"><p>A curated selection of Power BI dashboard work covering operations, geospatial analytics, procurement and enterprise monitoring.</p><span>CLICK AN IMAGE TO EXPAND</span></div>
+ <div class="dashboard-grid">
+  <button class="dashboard-card" type="button" data-image="assets/dashboards/train-tracking.png" data-title="Train Tracking" data-description="Real-time train visibility with map-based status tracking for running, halted, delayed and maintenance states."><span class="dashboard-index">01</span><img src="assets/dashboards/train-tracking.png" alt="Train Tracking Power BI dashboard" loading="lazy"><span class="dashboard-caption"><strong>Train Tracking</strong><small>Real-time operations · Icon Map Pro</small><b>↗</b></span></button>
+  <button class="dashboard-card" type="button" data-image="assets/dashboards/land-information.png" data-title="Land Information" data-description="Interactive land classification and ownership analysis using map-based visualization and filters."><span class="dashboard-index">02</span><img src="assets/dashboards/land-information.png" alt="Land Information Power BI dashboard" loading="lazy"><span class="dashboard-caption"><strong>Land Information</strong><small>Geospatial analytics · Icon Map Pro</small><b>↗</b></span></button>
+  <button class="dashboard-card" type="button" data-image="assets/dashboards/ssis-ssas-job-monitor.png" data-title="SSIS & SSAS Job Activity Monitor" data-description="Enterprise job monitoring across SSIS, SSAS and supporting infrastructure with execution status and resource visibility."><span class="dashboard-index">03</span><img src="assets/dashboards/ssis-ssas-job-monitor.png" alt="SSIS and SSAS Job Activity Monitor dashboard" loading="lazy"><span class="dashboard-caption"><strong>SSIS & SSAS Job Monitor</strong><small>ETL operations · Job monitoring</small><b>↗</b></span></button>
+  <button class="dashboard-card" type="button" data-image="assets/dashboards/procurement-spend-analysis.png" data-title="Procurement Spend Analysis" data-description="Procurement analytics focused on spend, savings, supplier performance, delivery and sourcing risk."><span class="dashboard-index">04</span><img src="assets/dashboards/procurement-spend-analysis.png" alt="Procurement Spend Analysis Power BI dashboard" loading="lazy"><span class="dashboard-caption"><strong>Procurement Spend Analysis</strong><small>Spend analytics · Supplier performance</small><b>↗</b></span></button>
+ </div>
 </section>
+<div class="dashboard-modal" aria-hidden="true"><button class="modal-close" type="button" aria-label="Close dashboard preview">×</button><div class="modal-content"><img src="" alt=""><div class="modal-copy"><span></span><h3></h3><p></p></div></div></div>
+<section id="experience" class="section content-section">
+ <div class="section-head"><span>05 / EXPERIENCE</span><h2>A career built around<br><em>business intelligence.</em></h2></div>
+ <div class="timeline"><div class="line"></div>
+  <div class="timeline-item"><span class="year">2019–2020</span><div><h3>Concentrix</h3><p>Senior IT Executive</p></div></div>
+  <div class="timeline-item"><span class="year">2020–2021</span><div><h3>Wonder Cement</h3><p>Officer IT</p></div></div>
+  <div class="timeline-item"><span class="year">2021–2024</span><div><h3>Wipro Ltd.</h3><p>Senior Software Engineer · Data & AI</p></div></div>
+  <div class="timeline-item"><span class="year">2024–2026</span><div><h3>Neudesic · An IBM Company</h3><p>Data Analyst</p></div></div>
+  <div class="timeline-item current"><span class="year">2026–NOW</span><div><h3>IBM</h3><p>Application Developer · Data & AI</p></div></div>
+ </div>
+</section>
+<section id="education" class="section content-section split"><div><div class="section-head"><span>06 / EDUCATION</span><h2>Foundation &<br><em>certification.</em></h2></div></div><div class="edu-card"><span>B.TECH · 2008–2012</span><h3>Bachelor of Technology</h3><p>Bijupattnaik University of Technology</p><div class="cert"><strong>PL-300</strong><span>Microsoft Certified: Power BI Data Analyst Associate</span></div></div></section>
+<section id="contact" class="section contact"><div class="contact-inner"><span>07 / CONTACT</span><h2>Let's build something<br><em>meaningful with data.</em></h2><p>Open to Power BI, BI Development and Data Analytics opportunities.</p><a class="email" href="mailto:suhelkhanpbi@gmail.com">suhelkhanpbi@gmail.com ↗</a><div class="contact-links"><a href="https://linkedin.com/in/suhelkhan300" target="_blank" rel="noreferrer">LinkedIn</a><a href="Suhel_Khan_Power_BI_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer">Download CV ↗</a></div></div></section>
+<footer>© <span id="year"></span> SUHEL KHAN · POWER BI / BI / ANALYTICS</footer>
 </main>
-<footer><span>© <span id="year"></span> Suhel Khan</span><span>Power BI · BI · Analytics</span></footer>
-
-<div class="modal" id="modal"><div class="modalbox"><button id="close">×</button><small id="mmeta"></small><h2 id="mtitle"></h2><p id="mtext"></p></div></div>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
